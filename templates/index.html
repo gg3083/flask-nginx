@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>flask</h1>
+ <ul>
+        {% for n in file_list %}
+        <li><a href="{{n.pre}}" target="_blank">{{n.file_name}}</a></li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
